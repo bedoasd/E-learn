@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape android:shape="rectangle" xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    >
+
+    <solid android:color="@color/white" />
+    <corners android:topLeftRadius="110dp"
+        android:topRightRadius="110dp"
+        />
+
+</shape>
+
+
+
+
+
+
+
+
+<!--
+
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="8dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0">
+
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M24 20v-20h-24v24a20 24 0 0 1 24 0z"/>
+
+</vector>-->
