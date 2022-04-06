@@ -24,10 +24,10 @@
             android:src="@drawable/lock" />
 
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/lock2"
+            android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:orientation="vertical">
 
@@ -69,6 +69,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
+                android:padding="5dp"
                 android:src="@drawable/mail_ico" />
 
             <EditText
@@ -88,10 +89,10 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_marginTop="20dp"
+                android:layout_weight="1"
                 android:background="@drawable/edittextbg"
                 android:orientation="horizontal"
                 android:padding="10dp">
@@ -100,6 +101,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
+                    android:padding="5dp"
                     android:src="@drawable/eye_hidden_ico" />
 
                 <EditText

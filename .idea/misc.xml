@@ -13,6 +13,10 @@
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable/spalshbg.xml" value="0.23055555555555557" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/account_created.xml" value="0.2" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/activity_main.xml" value="0.2074074074074074" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/change_password.xml" value="0.22" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/enter_code.xml" value="0.25" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/forgot_password.xml" value="0.25" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/password_changed_successfuly.xml" value="0.25" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/signin.xml" value="0.18" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/signup.xml" value="0.18" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/splash.xml" value="0.22" />
