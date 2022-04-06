@@ -12,14 +12,14 @@
         android:id="@+id/relative2"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginBottom="-32dp"
+        android:layout_marginBottom="-20dp"
         >
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
-            android:src="@drawable/model3p" />
+            android:src="@drawable/model4p" />
 
 
     </RelativeLayout>
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/open_sans"
-                android:text="Learn on your "
+                android:text="Ready to find "
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/open_sans"
-                android:text="Schaedule"
+                android:text="a Course"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
