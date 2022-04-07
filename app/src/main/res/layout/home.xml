@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    android:padding="20dp"
+    android:background="#E3D7F8">
+
+
+
+    <LinearLayout
+        android:id="@+id/lin5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg"
+            android:padding="10dp"
+            android:src="@drawable/menu" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi, Alex Joe"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/waving" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:background="@drawable/bg"
+            android:padding="10dp"
+            android:src="@drawable/cart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/lin5"
+        android:background="@drawable/bg"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/search" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:hint="Search here..."
+            android:textColorHint="#a3a3a3" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative3"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/imagebg"
+        android:layout_below="@id/lin6">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            android:src="@drawable/model6p" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Real-World\nExperience!!!"
+                android:fontFamily="serif"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                />
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explore"
+                android:textColor="#3ffadf"
+                android:textSize="23sp"
+                android:fontFamily="serif" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/forwradar2"
+                android:layout_gravity="bottom"
+                />
+
+
+        </LinearLayout>
+
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_width="110dp"
+                android:layout_height="3dp"
+                android:background="#3ffadf"
+                />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative3"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEE ALL"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/forwradar3" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin8"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin7"
+        >
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/buttonbg"
+            />
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Development"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/buttonbg"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/buttonbg"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin9"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin8"
+        >
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT &amp; Software"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/buttonbg"
+            />
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health &amp; Fitness "
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/buttonbg"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/lin10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin9"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Top Course"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEE ALL"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/forwradar3" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_below="@+id/lin10">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:background="@drawable/imagebg2"
+                android:src="@drawable/model7p" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.5"
+                    android:layout_gravity="center"
+                    android:textColor="#656262"
+                    android:textSize="18sp" />
+
+                <RatingBar
+                    android:layout_width="200dp"
+                    android:layout_height="45dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generator on there \n internet tend"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:background="@drawable/imagebg2"
+                android:src="@drawable/model7p" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.5"
+                    android:layout_gravity="center"
+                    android:textColor="#656262"
+                    android:textSize="18sp" />
+
+                <RatingBar
+                    android:layout_width="200dp"
+                    android:layout_height="45dp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generator on there \n internet tend"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"
+
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BEST SELLER"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/btnbg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BEST SELLER"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/btnbg"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+                />
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemIconTint="#5C5B5B"
+        app:labelVisibilityMode="unlabeled"
+        android:background="@drawable/bg"
+        app:menu="@menu/bottom_navigatiion"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+
+</RelativeLayout>
