@@ -124,7 +124,7 @@
                 android:layout_marginLeft="8dp"
                 android:fontFamily="@font/alata"
                 android:text="Episode 1 - introduction to 3D Animatios\n&amp;tools"
-                android:textColor="#090909"
+                android:textColor="#272525"
                 android:textSize="15sp" />
 
             <TextView
@@ -133,7 +133,7 @@
                 android:layout_marginLeft="8dp"
                 android:fontFamily="@font/alata"
                 android:text="Episode 2 - Basic of 3D Animatios Theory"
-                android:textColor="#090909"
+                android:textColor="#272525"
                 android:textSize="15sp" />
 
 
@@ -153,7 +153,7 @@
                 android:layout_marginLeft="8dp"
                 android:fontFamily="@font/alata"
                 android:text="Episode 3 - What are Tools use in Design"
-                android:textColor="#090909"
+                android:textColor="#272525"
                 android:textSize="15sp" />
             <TextView
                 android:layout_marginTop="10dp"
@@ -163,18 +163,20 @@
                 android:layout_marginLeft="8dp"
                 android:fontFamily="@font/alata"
                 android:text="Episode 4     The Selections Tools"
-                android:textColor="#090909"
+                android:textColor="#272525"
                 android:textSize="15sp" />
-            <TextView
-                android:layout_marginTop="10dp"
 
+            <TextView
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/alata"
                 android:text="Episode 5 -  Objects of the 3D Animations"
-                android:textColor="#090909"
+                android:textColor="#272525"
                 android:textSize="15sp" />
+
             <TextView
                 android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -182,7 +184,7 @@
                 android:layout_marginLeft="8dp"
                 android:fontFamily="@font/alata"
                 android:text="Episode 6     The Conclusion"
-                android:textColor="#090909"
+                android:textColor="#272525"
                 android:textSize="15sp" />
 
         </LinearLayout>
