@@ -13,15 +13,18 @@
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable-mdpi/imagebg.xml" value="0.2962962962962963" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable-mdpi/imagebg2.xml" value="0.33055555555555555" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable-mdpi/spalshbgvictoer.xml" value="0.1685185185185185" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/drawable-xxhdpi/btnbgblack.xml" value="0.33055555555555555" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/drawable-xxhdpi/btnbgcart.xml" value="0.33055555555555555" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable/arrowbg.xml" value="0.31296296296296294" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable/edittextbg.xml" value="0.28425925925925927" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20277777777777778" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/drawable/spalshbg.xml" value="0.23055555555555557" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/about_instructor.xml" value="0.25" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/account_created.xml" value="0.2" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/activity_main.xml" value="0.2074074074074074" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/change_password.xml" value="0.22" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/corse_details.xml" value="0.33" />
-        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/curricullum.xml" value="0.25" />
+        <entry key="..\:/ODC/E-learn/app/src/main/res/layout/curricullum.xml" value="0.33" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/enter_code.xml" value="0.25" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/forgot_password.xml" value="0.25" />
         <entry key="..\:/ODC/E-learn/app/src/main/res/layout/home.xml" value="0.25" />
