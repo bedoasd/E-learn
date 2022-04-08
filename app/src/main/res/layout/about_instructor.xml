@@ -294,10 +294,18 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:background="@drawable/btnbgblack"
-            android:orientation="horizontal"
-            android:paddingHorizontal="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingHorizontal="20dp"
 
             >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:orientation="horizontal">
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -305,7 +313,7 @@
                 android:layout_gravity="center_vertical"
                 android:text="OFFER PRICE :"
                 android:textColor="#D1CBCB"
-                android:textSize="12sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -318,25 +326,27 @@
 
                 />
 
-         <LinearLayout
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_gravity="center"
-             android:orientation="vertical">
-             <TextView
-                 android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 android:text="$40.50"
-                 android:textColor="#D1CBCB"
-                 android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$40.50"
+                    android:textColor="#D1CBCB"
+                    android:textSize="18sp" />
 
-             <View
-                 android:layout_width="50dp"
-                 android:layout_height="1dp"
-                 android:background="@color/white"
-                 android:layout_marginTop="-10dp"
-                 />
-         </LinearLayout>
+                <View
+                    android:layout_width="50dp"
+                    android:layout_height="1dp"
+                    android:background="@color/white"
+                    android:layout_marginTop="-10dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
 
         </LinearLayout>
 
