@@ -140,7 +140,6 @@
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_marginTop="20dp"
-            android:layout_margintop="20dp"
             android:background="@drawable/btnbg"
             android:padding="10dp"
             android:text="Change Password"

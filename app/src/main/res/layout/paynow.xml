@@ -128,7 +128,7 @@
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/paypal" />
+                    android:src="@drawable/pay" />
 
                 <ImageView
                     android:layout_width="65dp"
