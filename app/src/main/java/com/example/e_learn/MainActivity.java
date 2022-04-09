@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-       /* String u="https://www.pexels.com/video/a-woman-looking-through-the-microscope-5752729/";
+       /* String u="https://web.law.duke.edu/cspd/contest/videos/Framed-Contest_Documentaries-and-You.mp4";
         mVideoView.setVideoURI(Uri.parse(u));
        // videoView.setVideoPath("https://www.pexels.com/video/a-woman-looking-through-the-microscope-5752729/");
         videoView.start();*/
