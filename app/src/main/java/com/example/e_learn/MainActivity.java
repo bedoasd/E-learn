@@ -19,29 +19,14 @@ public class MainActivity extends AppCompatActivity {
 
         MediaController mediaController=new MediaController(this);
         final VideoView videoView=(VideoView) findViewById(R.id.video_view2);
-        //https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4
-
-    /*  String path="D:/ODC/E-learn/app/src/main/res/raw/videosview.MOV";
-        Uri u = Uri.parse(path);*/
 
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
 
-       videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-            @Override
-            public void onPrepared(MediaPlayer mediaPlayer) {
-                mediaPlayer.start();
-            }
-        });
-        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-            @Override
-            public void onCompletion(MediaPlayer mediaPlayer) {
-
-            }
-        });
        /* String u="https://web.law.duke.edu/cspd/contest/videos/Framed-Contest_Documentaries-and-You.mp4";
-        mVideoView.setVideoURI(Uri.parse(u));
+//       mVideoView.setVideoURI(Uri.parse(u));
        // videoView.setVideoPath("https://www.pexels.com/video/a-woman-looking-through-the-microscope-5752729/");
+        videoView.setVideoPath(u);
         videoView.start();*/
 
        mediaController = new MediaController(this);
